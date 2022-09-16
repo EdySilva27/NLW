@@ -19,7 +19,8 @@ body * {
 }
 header {
     margin-top: 32px;
-    height: calc(120px + 32px);
+    /*height: calc(120px + 32px); <- para que o calcúlo seja feito altomaticamente.*/
+    height: 120px;
 }
 header div {
     width: 120px;
@@ -77,6 +78,8 @@ section ul li:hover {
 }
 .gamesList img {
     border-radius: 8px;
+    /*largura das imagens diminuidas afim de criar melhor estética.*/
+    width: 100px;
 }
 .canaisList img {
     border-radius: 50%;
